@@ -6,20 +6,31 @@ const MANIFEST_PATH = "manifest.json";
 const FEED_PATH = "feed.xml";
 const SITE_URL = "https://duanyytop.github.io/agents-radar";
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
-const REPORT_FILES = ["ai-cli", "ai-cli-en", "ai-agents", "ai-agents-en", "ai-web", "ai-web-en", "ai-trending", "ai-trending-en", "ai-hn", "ai-hn-en"] as const;
+const REPORT_FILES = [
+  "ai-cli",
+  "ai-cli-en",
+  "ai-agents",
+  "ai-agents-en",
+  "ai-web",
+  "ai-web-en",
+  "ai-trending",
+  "ai-trending-en",
+  "ai-hn",
+  "ai-hn-en",
+] as const;
 const MAX_FEED_ITEMS = 30;
 
 const REPORT_LABELS: Record<string, string> = {
-  "ai-cli":          "AI CLI 工具社区动态日报",
-  "ai-cli-en":       "AI CLI Tools Digest",
-  "ai-agents":       "AI Agents 生态日报",
-  "ai-agents-en":    "AI Agents Ecosystem Digest",
-  "ai-web":          "AI 官方内容追踪报告",
-  "ai-web-en":       "Official AI Content Report",
-  "ai-trending":     "AI 开源趋势日报",
-  "ai-trending-en":  "AI Open Source Trends",
-  "ai-hn":           "Hacker News AI 社区动态日报",
-  "ai-hn-en":        "Hacker News AI Community Digest",
+  "ai-cli": "AI CLI 工具社区动态日报",
+  "ai-cli-en": "AI CLI Tools Digest",
+  "ai-agents": "AI Agents 生态日报",
+  "ai-agents-en": "AI Agents Ecosystem Digest",
+  "ai-web": "AI 官方内容追踪报告",
+  "ai-web-en": "Official AI Content Report",
+  "ai-trending": "AI 开源趋势日报",
+  "ai-trending-en": "AI Open Source Trends",
+  "ai-hn": "Hacker News AI 社区动态日报",
+  "ai-hn-en": "Hacker News AI Community Digest",
 };
 
 interface DateEntry {

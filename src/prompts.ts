@@ -30,7 +30,14 @@ export function formatItem(item: GitHubItem, lang: "zh" | "en" = "zh"): string {
   const ellipsis = (item.body ?? "").length > 300 ? "..." : "";
   const t =
     lang === "en"
-      ? { author: "Author", created: "Created", updated: "Updated", comments: "Comments", url: "URL", summary: "Summary" }
+      ? {
+          author: "Author",
+          created: "Created",
+          updated: "Updated",
+          comments: "Comments",
+          url: "URL",
+          summary: "Summary",
+        }
       : { author: "作者", created: "创建", updated: "更新", comments: "评论", url: "链接", summary: "摘要" };
   return [
     `#${item.number} [${item.state.toUpperCase()}]${labelStr} ${item.title}`,
@@ -76,7 +83,8 @@ export function buildCliPrompt(
   const sampledIssues = topN(issues, CLI_ISSUE_LIMIT);
   const sampledPrs = topN(prs, CLI_PR_LIMIT);
 
-  const issuesText = sampledIssues.map((i) => formatItem(i, lang)).join("\n") || (lang === "en" ? "None" : "无");
+  const issuesText =
+    sampledIssues.map((i) => formatItem(i, lang)).join("\n") || (lang === "en" ? "None" : "无");
   const prsText = sampledPrs.map((p) => formatItem(p, lang)).join("\n") || (lang === "en" ? "None" : "无");
   const releasesText = releases.length
     ? releases.map((r) => `- ${r.tag_name}: ${r.name}\n  ${(r.body ?? "").slice(0, 300)}`).join("\n")
@@ -315,7 +323,12 @@ ${peerSections}
 `;
 }
 
-export function buildSkillsPrompt(prs: GitHubItem[], issues: GitHubItem[], dateStr: string, lang: "zh" | "en" = "zh"): string {
+export function buildSkillsPrompt(
+  prs: GitHubItem[],
+  issues: GitHubItem[],
+  dateStr: string,
+  lang: "zh" | "en" = "zh",
+): string {
   const topPrs = topN(prs, 20);
   const topIssues = topN(issues, 15);
 
@@ -372,7 +385,11 @@ ${issuesText}
 `;
 }
 
-export function buildComparisonPrompt(digests: RepoDigest[], dateStr: string, lang: "zh" | "en" = "zh"): string {
+export function buildComparisonPrompt(
+  digests: RepoDigest[],
+  dateStr: string,
+  lang: "zh" | "en" = "zh",
+): string {
   const noActivityStr = lang === "en" ? "No activity in the last 24 hours." : "过去24小时无活动。";
 
   const sections = digests
@@ -555,7 +572,11 @@ ${searchSection}
 `;
 }
 
-export function buildWebReportPrompt(results: WebFetchResult[], dateStr: string, lang: "zh" | "en" = "zh"): string {
+export function buildWebReportPrompt(
+  results: WebFetchResult[],
+  dateStr: string,
+  lang: "zh" | "en" = "zh",
+): string {
   const isAnyFirstRun = results.some((r) => r.isFirstRun);
 
   const siteSections = results

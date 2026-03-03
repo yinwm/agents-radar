@@ -324,7 +324,18 @@ function buildCliReportContent(
     })
     .join("\n\n");
 
-  return t.title + t.meta + `${repoLinks}\n\n` + `---\n\n` + t.comparison + comparison + `\n\n---\n\n` + t.detail + toolSections + footer;
+  return (
+    t.title +
+    t.meta +
+    `${repoLinks}\n\n` +
+    `---\n\n` +
+    t.comparison +
+    comparison +
+    `\n\n---\n\n` +
+    t.detail +
+    toolSections +
+    footer
+  );
 }
 
 function buildOpenclawReportContent(
@@ -605,16 +616,42 @@ async function main(): Promise<void> {
 
   // 4. Build + save all reports
   const digestContent = buildCliReportContent(
-    zhSummaries.cliDigests, zhSummaries.skillsSummary, comparison, utcStr, dateStr, footer, "zh",
+    zhSummaries.cliDigests,
+    zhSummaries.skillsSummary,
+    comparison,
+    utcStr,
+    dateStr,
+    footer,
+    "zh",
   );
   const openclawContent = buildOpenclawReportContent(
-    fetchedOpenclaw, zhSummaries.peerDigests, zhSummaries.openclawSummary, peersComparison, utcStr, dateStr, footer, "zh",
+    fetchedOpenclaw,
+    zhSummaries.peerDigests,
+    zhSummaries.openclawSummary,
+    peersComparison,
+    utcStr,
+    dateStr,
+    footer,
+    "zh",
   );
   const enDigestContent = buildCliReportContent(
-    enSummaries.cliDigests, enSummaries.skillsSummary, enComparison, utcStr, dateStr, enFooter, "en",
+    enSummaries.cliDigests,
+    enSummaries.skillsSummary,
+    enComparison,
+    utcStr,
+    dateStr,
+    enFooter,
+    "en",
   );
   const enOpenclawContent = buildOpenclawReportContent(
-    fetchedOpenclaw, enSummaries.peerDigests, enSummaries.openclawSummary, enPeersComparison, utcStr, dateStr, enFooter, "en",
+    fetchedOpenclaw,
+    enSummaries.peerDigests,
+    enSummaries.openclawSummary,
+    enPeersComparison,
+    utcStr,
+    dateStr,
+    enFooter,
+    "en",
   );
 
   console.log(`  Saved ${saveFile(digestContent, dateStr, "ai-cli.md")}`);
@@ -628,7 +665,15 @@ async function main(): Promise<void> {
 
   await Promise.all([
     saveTrendingReport(trendingData, zhSummaries.trendingSummary, utcStr, dateStr, digestRepo, footer, "zh"),
-    saveTrendingReport(trendingData, enSummaries.trendingSummary, utcStr, dateStr, digestRepo, enFooter, "en"),
+    saveTrendingReport(
+      trendingData,
+      enSummaries.trendingSummary,
+      utcStr,
+      dateStr,
+      digestRepo,
+      enFooter,
+      "en",
+    ),
     saveHnReport(hnData, utcStr, dateStr, digestRepo, footer, "zh"),
     saveHnReport(hnData, utcStr, dateStr, digestRepo, enFooter, "en"),
   ]);
@@ -638,7 +683,11 @@ async function main(): Promise<void> {
     const cliUrl = await createGitHubIssue(`📊 AI CLI 工具社区动态日报 ${dateStr}`, digestContent, "digest");
     console.log(`  Created CLI issue: ${cliUrl}`);
 
-    const openclawUrl = await createGitHubIssue(`🦞 OpenClaw 生态日报 ${dateStr}`, openclawContent, "openclaw");
+    const openclawUrl = await createGitHubIssue(
+      `🦞 OpenClaw 生态日报 ${dateStr}`,
+      openclawContent,
+      "openclaw",
+    );
     console.log(`  Created OpenClaw issue: ${openclawUrl}`);
   }
 
