@@ -66,6 +66,7 @@ const DEFAULT_OPENCLAW_PEERS: RepoConfig[] = [
   { id: "lobsterai", repo: "netease-youdao/LobsterAI", name: "LobsterAI" },
   { id: "tinyclaw", repo: "TinyAGI/tinyclaw", name: "TinyClaw" },
   { id: "copaw", repo: "agentscope-ai/CoPaw", name: "CoPaw" },
+  { id: "moltis", repo: "moltis-org/moltis", name: "Moltis" },
   { id: "zeptoclaw", repo: "qhkm/zeptoclaw", name: "ZeptoClaw" },
   { id: "easyclaw", repo: "gaoyangz77/easyclaw", name: "EasyClaw" },
 ];

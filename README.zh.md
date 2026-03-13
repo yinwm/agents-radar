@@ -124,6 +124,7 @@ OpenClaw 作为重点追踪项目，同时横向对比多个同赛道项目，�
 | LobsterAI | [netease-youdao/LobsterAI](https://github.com/netease-youdao/LobsterAI) | 3.0k |
 | TinyClaw | [TinyAGI/tinyclaw](https://github.com/TinyAGI/tinyclaw) | 2.8k |
 | CoPaw | [agentscope-ai/CoPaw](https://github.com/agentscope-ai/CoPaw) | 2.2k |
+| Moltis | [moltis-org/moltis](https://github.com/moltis-org/moltis) | 2.1k |
 | ZeptoClaw | [qhkm/zeptoclaw](https://github.com/qhkm/zeptoclaw) | 394 |
 | EasyClaw | [gaoyangz77/easyclaw](https://github.com/gaoyangz77/easyclaw) | 102 |
 
