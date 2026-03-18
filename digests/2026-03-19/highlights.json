@@ -1,0 +1,70 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code陷舆论风暴：超强功能伴随Rate限流争议",
+      "OpenAI Codex大重构：推exec-server协议布局远程开发",
+      "Copilot CLI遭差评：v1.0.8渲染崩溃，维护陷瓶颈",
+      "Kimi/Qwen强化计划模式：长任务执行能力成标配",
+      "Qwen Code野心大：对标Claude，VSCode插件正急修",
+      "Windows兼容性成痛：系统级稳定性仍是落地关键"
+    ],
+    "ai-agents": [
+      "OpenClaw今日狂飙：24小时500 PR激战重大版本前夜",
+      "架构大升级：引入Watchdog服务，网关崩溃将自愈",
+      "统一提供商API：扩展至ASR与音频，插件生态爆发",
+      "MS Teams补齐短板：消息编辑功能已达一线水平",
+      "修复WhatsApp痛点：解决连接断开与超时频发问题",
+      "安全警报拉响：社区高度警惕钓鱼诈骗风险"
+    ],
+    "ai-trending": [
+      "Claude可视化神器claude-hud单日星标暴增1040",
+      "Agent黑马obra/superpowers单日揽星4091，定义方法论",
+      "everything-claude-code：打造Claude高性能技能系统",
+      "LangChain开源异步编码Agent：专注解决复杂编程任务",
+      "LlamaFactory：ACL收录，依然是微调党首选WebUI",
+      "vllm与Ollama霸榜：本地化推理基建硬核需求不减"
+    ],
+    "ai-hn": [
+      "OpenAI重心转向IPO：被指削减侧项目，社区痛心变质",
+      "微软威胁起诉OpenAI：百亿云业务转投亚马逊",
+      "大英百科全书起诉OpenAI：版权法律战再升级",
+      "谷歌工程师推Sashiko：用AI审查Linux内核代码",
+      "Show HN: Xybrid – Rust实现本地化LLM与语音运行",
+      "科技巨头博弈白热化：AI利益同盟面临撕破脸"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code leads ecosystem with v2.1.78 release",
+      "OpenAI Codex builds remote execution stack",
+      "Git Copilot faces UI regressions in latest update",
+      "Industry shifts from chat to platform-grade envs",
+      "Ecosystem standardizes on Model Context Protocol",
+      "Windows stability hinders enterprise adoption"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and PRs in 24 hours",
+      "Unified Provider System proposed via new PR",
+      "No releases despite intense development velocity",
+      "Critical infrastructure improvements discussed",
+      "Community cites stability concerns",
+      "Project enters fast-paced sprint state"
+    ],
+    "ai-trending": [
+      "Obra/superpowers gains 4,091 stars today",
+      "Claude-hud tool visualizes context usage",
+      "LangChain-ai/open-swe launches async agent",
+      "Unsloth drives local model fine-tuning trend",
+      "Shift from chat interfaces to agent loops",
+      "Activepieces deepens model context integration"
+    ],
+    "ai-hn": [
+      "OpenAI shifts focus to IPO: community debates",
+      "Microsoft weighs legal action vs Amazon deal",
+      "Agent paradigm replaces simple chat interfaces",
+      "Data center noise pollution goes viral",
+      "Government backtracks on AI copyright rules",
+      "Industry moves from growth to profitability"
+    ]
+  }
+}
