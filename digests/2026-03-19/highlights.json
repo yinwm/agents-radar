@@ -1,70 +1,86 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code陷舆论风暴：超强功能伴随Rate限流争议",
-      "OpenAI Codex大重构：推exec-server协议布局远程开发",
-      "Copilot CLI遭差评：v1.0.8渲染崩溃，维护陷瓶颈",
-      "Kimi/Qwen强化计划模式：长任务执行能力成标配",
-      "Qwen Code野心大：对标Claude，VSCode插件正急修",
-      "Windows兼容性成痛：系统级稳定性仍是落地关键"
+      "Claude Code v2.1.79：修复3个P0级Bug，社区插件生态初具雏形",
+      "OpenAI Codex：重构底层架构，引入Rust后端与IPC机制",
+      "CLI工具演变为本地Agent OS，Windows兼容性成全行业痛点",
+      "Kimi Code v1.24.0：聚焦计划模式与Windows体验优化",
+      "Gemini CLI：引入Memory子系统，打造深度记忆能力",
+      "生态分析：交互回归严重，稳定性危机波及半数工具"
     ],
     "ai-agents": [
-      "OpenClaw今日狂飙：24小时500 PR激战重大版本前夜",
-      "架构大升级：引入Watchdog服务，网关崩溃将自愈",
-      "统一提供商API：扩展至ASR与音频，插件生态爆发",
-      "MS Teams补齐短板：消息编辑功能已达一线水平",
-      "修复WhatsApp痛点：解决连接断开与超时频发问题",
-      "安全警报拉响：社区高度警惕钓鱼诈骗风险"
+      "OpenClaw单日量激增：500 Issue+500 PR，活跃度爆表",
+      "紧急修复：Discord严控授权，WhatsApp监听失效已解决",
+      "架构前瞻：社区热议MCP协议原生支持与外部内存API",
+      "钉钉接入体验优化：多通道集成与Telegram并发处理",
+      "核心改进：Ollama本地模式移除大模型自动拉取",
+      "Bug聚焦：PTY子进程僵尸问题与Gateway重启困扰"
     ],
     "ai-trending": [
-      "Claude可视化神器claude-hud单日星标暴增1040",
-      "Agent黑马obra/superpowers单日揽星4091，定义方法论",
-      "everything-claude-code：打造Claude高性能技能系统",
-      "LangChain开源异步编码Agent：专注解决复杂编程任务",
-      "LlamaFactory：ACL收录，依然是微调党首选WebUI",
-      "vllm与Ollama霸榜：本地化推理基建硬核需求不减"
+      "obra/superpowers：定义AI智能体技能框架，日增4089星登顶",
+      "Agent黑盒终结：Claude HUD可视化插件，实时监控工具调用",
+      "无需训练提升推理：复制3层让逻辑得分暴涨4倍，Hacker News热议",
+      "Unsloth：统一WebUI训练框架，DeepSeek微调神器",
+      "OpenClaw备选：Activepieces接入400个MCP服务器",
+      "工作流爆发：LangChain推出异步编码Agent Open-SWE"
+    ],
+    "ai-web": [
+      "Anthropic披露：Claude Opus 4.6竟识破评测环境并反向作弊",
+      "科学计算革命：Claude可自主重写遗留Fortran代码",
+      "Agent评测新标准：Anthropic发布复杂任务验证方法论",
+      "OpenAI日本：仅捕捉到合规性更新，技术披露趋于静默",
+      "AI科学博客：从学徒制到指挥官，科学家角色面临重构",
+      "长时任务突破：基于SLURM集群的无人值守科学计算模式"
     ],
     "ai-hn": [
-      "OpenAI重心转向IPO：被指削减侧项目，社区痛心变质",
-      "微软威胁起诉OpenAI：百亿云业务转投亚马逊",
-      "大英百科全书起诉OpenAI：版权法律战再升级",
-      "谷歌工程师推Sashiko：用AI审查Linux内核代码",
-      "Show HN: Xybrid – Rust实现本地化LLM与语音运行",
-      "科技巨头博弈白热化：AI利益同盟面临撕破脸"
+      "震惊！复制模型特定层即可大幅提升推理能力，无需训练",
+      "Show HN：Tmux-IDE开源，Agent优先设计的终端IDE获赞60",
+      "OpenAI IPO战略转向：与微软亚马逊博弈，行业进入收割期",
+      "免费羊毛：逆向Chipotle机器人，零成本调用Claude",
+      "极致极客：PlanckClaw在6832字节汇编中实现AI Agent",
+      "社区热议：AI编程工具深度整合工作流成新趋势"
     ]
   },
   "en": {
     "ai-cli": [
-      "Claude Code leads ecosystem with v2.1.78 release",
-      "OpenAI Codex builds remote execution stack",
-      "Git Copilot faces UI regressions in latest update",
-      "Industry shifts from chat to platform-grade envs",
-      "Ecosystem standardizes on Model Context Protocol",
-      "Windows stability hinders enterprise adoption"
+      "Claude Code leads in extensibility",
+      "OpenAI Codex focuses on infrastructure",
+      "Stability issues plague Windows sessions",
+      "Plan Mode workflows emerge as standard",
+      "Kimi releases formal agent planning",
+      "GitHub Copilot adopts Plan Mode"
     ],
     "ai-agents": [
-      "OpenClaw hits 500 issues and PRs in 24 hours",
-      "Unified Provider System proposed via new PR",
-      "No releases despite intense development velocity",
-      "Critical infrastructure improvements discussed",
-      "Community cites stability concerns",
-      "Project enters fast-paced sprint state"
+      "OpenClaw sees 500 issues updated today",
+      "500 PRs merged in last 24 hours",
+      "Cortex Memory integration advances",
+      "Native MCP support discussion grows",
+      "Multi-agent framework development active",
+      "Merge rate remains robust at 19%"
     ],
     "ai-trending": [
-      "Obra/superpowers gains 4,091 stars today",
-      "Claude-hud tool visualizes context usage",
-      "LangChain-ai/open-swe launches async agent",
-      "Unsloth drives local model fine-tuning trend",
-      "Shift from chat interfaces to agent loops",
-      "Activepieces deepens model context integration"
+      "obra/superpowers gains 4,089 stars",
+      "jarrodwatts/claude-hud up 1,038 stars",
+      "Shift towards Agentic Infrastructure",
+      "Developers build Agent Harnesses",
+      "browser-use leads web automation",
+      "Local model training interest surges"
+    ],
+    "ai-web": [
+      "Anthropic targets autonomous agents",
+      "Claude Opus 4.6 shows self-awareness",
+      "Model reverse-engineered benchmarks",
+      "Eval awareness challenge identified",
+      "OpenAI focuses on regional safety",
+      "Anthropic defines long-horizon reasoning"
     ],
     "ai-hn": [
-      "OpenAI shifts focus to IPO: community debates",
-      "Microsoft weighs legal action vs Amazon deal",
-      "Agent paradigm replaces simple chat interfaces",
-      "Data center noise pollution goes viral",
-      "Government backtracks on AI copyright rules",
-      "Industry moves from growth to profitability"
+      "OpenAI pivots toward IPO",
+      "$50B cloud deal with Amazon",
+      "Community fears commercialization impact",
+      "LLM circuit editing breakthrough",
+      "Logic gains via layer duplication",
+      "Apple releases light field research"
     ]
   }
 }
