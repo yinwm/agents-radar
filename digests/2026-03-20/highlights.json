@@ -1,0 +1,86 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.80 发布，新增插件市场但遭遇严重 Git 数据丢失",
+      "OpenAI Codex 遭遇 Token 泄露危机，Rust 引擎重构引关注",
+      "Kimi Code 紧急修复集成问题，插件系统与 Windows 兼容性提升",
+      "Qwen Code v0.13.0 预览版发布，修复编辑失效并规范 Skills 权限",
+      "GitHub Copilot v1.0.9 补丁版发布，TUI 接管引发终端冲突争议",
+      "社区共识：插件/Skills 生态与 IDE 深度集成成核心诉求"
+    ],
+    "ai-agents": [
+      "OpenClaw 无新版本发布，日均 500 Issue 暴露严重稳定性问题",
+      "核心修复：WhatsApp 连接回归，幽灵会话与网关超时有望解决",
+      "集成 Tavily 搜索引擎，为用户提供除 Brave 外的新搜索选项",
+      "安全警示：社区出现针对 OpenClaw 项目的钓鱼诈骗需警惕",
+      "PR 大爆发：私有投递模式与多代理通信文档正在优化中",
+      "核心痛点：Agent Teams 与 MCP 协议支持成为社区热议焦点"
+    ],
+    "ai-trending": [
+      "claude-hud 一日暴增 1800+ Star，可视化解决 AI 思考黑盒痛点",
+      "LangChain 推出 open-swe，进军异步编程 Agent 领域",
+      "obra/superpowers 一日涨星 3400+，重新定义 Agent 协作规范",
+      "RAG 基建获关注：Java 版 PDF 解析器单日涨星超 1400",
+      "从 Prompt 到规范：gsd-build 试图定义驱动 Claude 的工程标准",
+      "社区趋势：AI 工具从单纯调用向可视化的 Agent 工程化转型"
+    ],
+    "ai-web": [
+      "重磅突发：OpenAI 拟收购 Python 巨头 Astral，剑指生态控制权",
+      "若收购完成，Ruff 与 Astro 将与 OpenAI 深度整合重塑开发流",
+      "OpenAI 公开编码代理监控机制，直面 AI 行为对齐与安全问题",
+      "Anthropic 今日陷入静默期，官网无更新引发大版本发布猜想",
+      "OpenAI 战略收购接连落地，开发者工具链垂直整合竞赛加剧",
+      "基础设施之战：从模型比拼转向对代码运行与质检工具的争夺"
+    ],
+    "ai-hn": [
+      "Astral 投奔 OpenAI 震惊社区，垄断 Ruff 引发 Python 生态焦虑",
+      "Anthropic 陷信任危机，被指控用法律手段绞杀开源项目 OpenCode",
+      "Claude Code 推出 Channels 功能，探索 AI 记忆与持续性交互",
+      "Show HN：AI Agent 替代初级员工案例，引爆饭碗危机大讨论",
+      "HN 社区情绪分化：技术兴奋加剧了对生态垄断与不可预测性的恐惧",
+      "行业争论：AI 编程是效率工具还是初级程序员的掘墓人？"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.80 flagged Unstable",
+      "OpenAI Codex suffers from token-burning bugs",
+      "Ecosystem split: agentic autonomy vs governance",
+      "Qwen Code leverages Rust for modularity",
+      "Systemic vulnerabilities: data loss & safety bugs",
+      "GitHub Copilot CLI faces feature clash"
+    ],
+    "ai-agents": [
+      "OpenClaw halts releases amid stability crunch",
+      "500 issues & PRs updated in 24 hours",
+      "Severe regressions in WhatsApp & Docker support",
+      "Version 2026.3.13 breaks local gateway handshakes",
+      "High friction in latest development cycle",
+      "Maintenance effort surges with no new stable build"
+    ],
+    "ai-trending": [
+      "Claude Code effect drives 5 of top 11 repos",
+      "obra/superpowers gains 3,494 stars today",
+      "Surge in Agentic Infrastructure tools",
+      "Robotics/Embodied AI stack matures significantly",
+      "Activepieces hits 21,290 stars",
+      "LangChain releases async coding agent Open-SWE"
+    ],
+    "ai-web": [
+      "OpenAI moves to acquire Python tooling giant Astral",
+      "OpenAI monitors 'coding agents misalignment'",
+      "Deal targets core infrastructure: Ruff and Astral",
+      "Shift from model-level to environment dominance",
+      "Anthropic maintains static public presence",
+      "Strategic signal: Infrastructure layer acquisition"
+    ],
+    "ai-hn": [
+      "OpenAI acquiring Astral sparks HN debate",
+      "Anthropic takes legal action vs OpenCode",
+      "Platformization fears: Ruff and UV under OpenAI",
+      "Claude Code Channels release discussed",
+      "Claude Code: Channels sparks multi-agent workflow talk",
+      "Debate: API control vs developer freedom"
+    ]
+  }
+}
