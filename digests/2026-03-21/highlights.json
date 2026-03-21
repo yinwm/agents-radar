@@ -1,0 +1,86 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code高危修复与钱包插件并行推进，v2.1.81版本正处于快速迭代期",
+      "OpenAI Codex沙箱崩溃引发海啸，v0.117架构重构导致底层处于剧烈动荡",
+      "Kimi Code单日合入20个修复，敏捷响应Windows编码与ACP工具失效痛点",
+      "Copilot MCP回退引焦虑，社区爆发呼吁将AI能力无缝嵌入CI/CD脚本",
+      "Qwen Code追击IDE体验，v0.13-preview.1紧急加固文件覆盖安全风险",
+      "Cli工具从玩具向基建转型，自动化与安全风险控制成为行业最大痛点"
+    ],
+    "ai-agents": [
+      "OpenClaw单日处理1千更新，Ollama本地模型支持增强，修复配置Bug",
+      "移动端体验大幅提升，iOS配对流程升级为PNG图片交付，告别ASCII",
+      "OpenAI Codex模型解析路径修复，完美适配gpt-5.4等新一代模型ID",
+      "渠道Bug修复聚焦，WhatsApp新增引用回复，Feishu修复硬编码流控问题",
+      "Azure OpenAI稳定性增强，修复多轮对话reasoning模块引发的400错误",
+      "主分支已集成大量Gateway修复，v2026.3.14补丁版即将发布，建议关注"
+    ],
+    "ai-trending": [
+      "Claude可视化神器claude-hud爆火，实时显示Agent进度与上下文消耗",
+      "Agent开发方法论霸榜，obra/superpowers提出重于框架的可工作指南",
+      "Rust版Google Workspace CLI横空出世，大厂下场构建AI原生工具链",
+      "LangChain推出开源异步编码Agentopen-swe，探索AI软件工程师新形态",
+      "CopilotKit不再止步ChatUI，定义生成式UI的工业级协议与标准",
+      "AI编程进入可视HUD时代，社区致力解决黑盒Agent思维过程可见性"
+    ],
+    "ai-web": [
+      "Anthropic全面铺路Claude 4.5，开发者文档更新明确指向商业化推广",
+      "Claude Opus 4.6与Haiku 4.5现身，Anthropic强调工作流整合构建护城河",
+      "API开发指南发布，重点利用Message Batches与Prompt Caching优化成本",
+      "企业级落地成重心，深度集成Bedrock与Vertex AI争夺云服务市场",
+      "OpenAI官网进入技术静默期，疑似处于GPT-4.5或GPT-5发布前的潜伏",
+      "Artifacts与Projects功能教学上线，Anthropic试图通过前端交互差异化突围"
+    ],
+    "ai-hn": [
+      "开源编码代理OpenCode登顶HN榜首，挑战商业闭源产品引发社区狂欢",
+      "TypeScript解析器性能反超Rust WASM，打破性能迷思引发技术界热议",
+      "OpenAI拟收购Astral构建桌面超级应用，深度整合操作系统战略曝光",
+      "Covenant-72B创下去中心化LLM最大规模预训练纪录，Web3与AI结合里程碑",
+      "SlopFilter项目出世，开发者屏蔽AI生成垃圾内容以对抗网络信息污染",
+      "AI疲劳与Slop泛滥成关键词，技术圈对AI炒作潮开始回归理性反思"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.81 focuses on automation flags",
+      "OpenCode addresses server fixes for headless CI",
+      "GitHub Copilot v1.0.10 targets clipboard fixes",
+      "Ecosystem shift toward Agent Safety and MCP standards",
+      "Windows stability issues plague major CLI tools",
+      "Kimi Code closes 20 issues in active release cycle"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues and PRs in 24 hours",
+      "Focus on v2026.3.x: gateway and WebSocket fixes",
+      "Docker build fixes merged post-extension migration",
+      "New CLI 'doctor' command exits on critical errors",
+      "Stability concerns dominate community discussions",
+      "Rapid iteration without new published releases"
+    ],
+    "ai-trending": [
+      "Agent Infrastructure trend: claude-hud visualizes agents",
+      "Physical AI rise: Newton/Arnis for robotics/simulation",
+      "Data prep tools like PaddleOCR remain enterprise staples",
+      "CopilotKit enables React 'Generative UIs' for agents",
+      "Alibaba's OpenSandbox offers Docker/K8s runtimes",
+      "Learn-claude-code repo educates on agent internals"
+    ],
+    "ai-web": [
+      "Anthropic launches 'Academy' for developer education",
+      "New guides spotlight Claude Sonnet 4.5 and Opus 4.5",
+      "Build with Claude API guide streamlines onboarding",
+      "Anthropic targets enterprise with 'Claude for Work' hub",
+      "Docs highlight Prompt Caching and Batch API features",
+      "Strategic shift from model releases to ecosystem adoption"
+    ],
+    "ai-hn": [
+      "OpenCode sparks debate with 200 comments on HN",
+      "Covenant-72B marks largest decentralized training run",
+      "Wikipedia RFC proposes ban on LLM contributions",
+      "Skepticism grows over OpenAI's rumored Astral buy",
+      "'SlopFilter' emerges to block AI-generated content",
+      "Rising interest in non-corporate open-source AI"
+    ]
+  }
+}
